@@ -434,25 +434,27 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"BrandonGrotesque-Regular"
+				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
+				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"13"	[$WIN32]
+				"name"		"BrandonGrotesque-Regular"
+				"tall"		"24"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
+				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"BrandonGrotesque-Regular"
+				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -460,8 +462,8 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
+				"name"		"BrandonGrotesque-Regular"
+				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
@@ -469,7 +471,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"BrandonGrotesque-Regular"
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -478,17 +480,19 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"BrandonGrotesque-Regular"
+				"tall"		"24"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
+				"antialias"	"1"
 			}
 			"7"
 			{
-				"name"		"Arial"
-				"tall"		"12"
+				"name"		"BrandonGrotesque-Regular"
+				"tall"		"24"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
+				"antialias"	"1"
 			}
 
 			
@@ -515,23 +519,25 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"BrandonGrotesque-Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
+				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"BrandonGrotesque-Regular"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
+				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"BrandonGrotesque-Regular"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -540,7 +546,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"BrandonGrotesque-Regular"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -549,7 +555,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"BrandonGrotesque-Regular"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -558,10 +564,11 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Arial"
+				"name"		"BrandonGrotesque-Regular"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
+				"antialias"	"1"
 			}
 		}
 
@@ -570,23 +577,25 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"BrandonGrotesque-Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
+				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"BrandonGrotesque-Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
+				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"BrandonGrotesque-Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -595,7 +604,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"BrandonGrotesque-Regular"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -604,7 +613,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"BrandonGrotesque-Regular"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2395,7 +2404,138 @@ Scheme
 				"additive"	"0"
 			}
 		}
-		
+		"Circle16"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Circle20"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"20"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Circle24"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Circle28"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"28"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Circle32"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"32"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Circle36"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"36"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Circle40"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"40"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Circle44"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"44"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Circle48"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"48"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Circle50"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"50"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Circle54"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"54"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Circle60"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"60"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"Black16"
 		{
 			"1"
@@ -2534,6 +2674,402 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-Black"
 				"tall"		"72"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Reg10"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Regular"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Reg14"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Regular"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Reg18"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Regular"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Reg22"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Regular"
+				"tall"		"22"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Reg26"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Regular"
+				"tall"		"26"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Reg30"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Regular"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Reg34"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Regular"
+				"tall"		"34"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Reg38"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Regular"
+				"tall"		"38"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Reg42"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Regular"
+				"tall"		"42"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RegIt10"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-RegularItalic"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RegIt14"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-RegularItalic"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RegIt18"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-RegularItalic"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RegIt22"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-RegularItalic"
+				"tall"		"22"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RegIt26"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-RegularItalic"
+				"tall"		"26"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RegIt30"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-RegularItalic"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RegIt34"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-RegularItalic"
+				"tall"		"34"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RegIt38"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-RegularItalic"
+				"tall"		"38"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"RegIt42"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-RegularItalic"
+				"tall"		"42"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Light10"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Light"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Light14"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Light"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Light18"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Light"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Light22"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Light"
+				"tall"		"22"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Light26"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Light"
+				"tall"		"26"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Light30"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Light"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Light34"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Light"
+				"tall"		"34"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Light38"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Light"
+				"tall"		"38"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Light42"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Light"
+				"tall"		"42"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightIt10"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-LightItalic"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightIt14"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-LightItalic"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightIt18"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-LightItalic"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightIt22"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-LightItalic"
+				"tall"		"22"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightIt26"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-LightItalic"
+				"tall"		"26"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightIt30"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-LightItalic"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightIt34"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-LightItalic"
+				"tall"		"34"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightIt38"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-LightItalic"
+				"tall"		"38"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"LightIt42"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-LightItalic"
+				"tall"		"42"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -4471,6 +5007,11 @@ Scheme
 		{
 			"font" "resource/fonts/Brandon_thin_it.otf"
 			"name" "BrandonGrotesque-ThinItalic"
+		}
+		"12"
+		{
+			"font" "resource/fonts/Paula.ttf"
+			"name" "Paula"
 		}
 	}
 }

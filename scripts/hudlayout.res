@@ -18,7 +18,7 @@
 		"enabled" "1"
 		"xpos"	"480"	[$WIN32]
 		"ypos"	"306"	[$WIN32]
-		"wide"	"94"
+		"wide"	"110"
 		"tall"	"45"
 	}
 	
@@ -27,8 +27,8 @@
 		"fieldName" "HudObjectiveStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
+		"xpos"	"-380"
+		"ypos"	"5"
 		"wide"	"f0"
 		"tall"	"480"
 	}	
