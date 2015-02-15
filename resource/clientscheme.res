@@ -2462,6 +2462,83 @@ Scheme
 				"antialias" "1"
 			}
 		}
+				"Black40"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Black"
+				"tall"		"40"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Black44"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Black"
+				"tall"		"44"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Black48"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Black"
+				"tall"		"48"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Black50"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Black"
+				"tall"		"50"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Black54"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Black"
+				"tall"		"54"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Black60"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Black"
+				"tall"		"60"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Black72"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Black"
+				"tall"		"72"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		
 
 	}
