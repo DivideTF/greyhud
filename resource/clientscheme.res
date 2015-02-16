@@ -2602,7 +2602,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-				"Black40"
+		"Black40"
 		{
 			"1"
 			{

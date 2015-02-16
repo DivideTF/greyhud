@@ -298,7 +298,7 @@
 		"tall"			"20"
 		"tall_minmode"	"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"0"	
 	}
