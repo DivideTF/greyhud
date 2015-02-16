@@ -19,11 +19,11 @@ Scheme
 	Colors
 	{
 		// base colors
-		"Orange"			"178 82 22 255"
-		"OrangeDim"			"178 82 22 120"
-		"LightOrange"		"188 112 0 128"
-		"GoalOrange"		"255 133 0"
-		"TFOrange"			"145 73 59 255"
+		"Orange"			"245 245 245 255"
+		"OrangeDim"			"245 245 245 255"
+		"LightOrange"		"245 245 245 255"
+		"GoalOrange"		"245 245 245 255"
+		"TFOrange"			"245 245 245 255"
 		
 		"White"				"235 235 235 255"
 		"Red"				"192 28 0 140"

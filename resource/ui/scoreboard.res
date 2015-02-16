@@ -18,20 +18,12 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"avatar_width"		"57"	[$WIN32]
-		"avatar_width"		"0"		[$X360]
-		"name_width"		"114"	[$WIN32]
-		"name_width"		"150"	[$X360]
+		"name_width"		"80"	[$WIN32]
 		"status_width"		"15"	[$WIN32]
-		"status_width"		"12"	[$X360]
 		"nemesis_width"		"15"	[$WIN32]
-		"nemesis_width"		"20"	[$X360]
 		"class_width"		"15"	[$WIN32]
-		"class_width"		"20"	[$X360]
-		"score_width"		"25"
-		"score_width_lodef"	"35"
-		"score_width_hidef"	"50"
-		"ping_width"		"23"	[$WIN32]
-		"ping_width"		"50"	[$X360]		// Larger to push the value off the edge
+		"score_width"		"20"
+		"ping_width"		"20"	[$WIN32]
 	}
 	"BlueScoreBG"
 	{
@@ -86,17 +78,17 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RealBG"
-		"xpos"			"95"
+		"xpos"			"90"
 		"ypos"			"120"
-		"zpos"			"2"
-		"wide"			"450"
-		"tall"			"220"
+		"zpos"			"-10"
+		"wide"			"460"
+		"tall"			"176"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"50 50 50 150"
+		"fillcolor"		"20 20 20 150"
 		"PaintBackgroundType"	"0"
 	}
 	"MainBG"
@@ -372,10 +364,10 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"5"
-		"ypos"			"72"
-		"zpos"			"20"
-		"wide"			"280"
+		"xpos"			"88"
+		"ypos"			"117"
+		"zpos"			"0"
+		"wide"			"234"
 		"tall"			"280"	[$WIN32]
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -394,22 +386,17 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"325"
-		"xpos_lodef"	"304"
-		"xpos_hidef"	"334"
-		"ypos"			"72"
-		"zpos"			"20"
-		"wide"			"310"
-		"wide_lodef"	"267"
-		"wide_hidef"	"277"
+		"xpos"			"318"
+		"ypos"			"117"
+		"zpos"			"0"
+		"wide"			"234"
 		"tall"			"280"	[$WIN32]
-		"tall"			"255"	[$X360]
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"22"
+		"linespacing"	"14"
 		"textcolor"		"red"
 		
  		if_mvm
@@ -421,17 +408,17 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
-		"xpos"			"95"
+		"xpos"			"90"
 		"ypos"			"120"
 		"zpos"			"2"
-		"wide"			"450"
+		"wide"			"460"
 		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"120 120 120 255"
+		"fillcolor"		"80 80 80 0"
 		"PaintBackgroundType"	"0"
 	}
 	"Spectators"

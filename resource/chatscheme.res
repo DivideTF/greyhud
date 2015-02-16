@@ -33,18 +33,18 @@ Scheme
 	BaseSettings
 	{
 		// vgui_controls color specifications
-		Border.Bright					"200 200 200 196"	// the lit side of a control
-		Border.Dark						"40 40 40 196"		// the dark/unlit side of a control
-		Border.Selection				"0 0 0 196"			// the additional border color for displaying the default/selected button
+		Border.Bright					"200 200 200 0"	// the lit side of a control
+		Border.Dark						"40 40 40 0"		// the dark/unlit side of a control
+		Border.Selection				"0 0 0 0"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"White"
-		Button.BgColor					"Blank"
-		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"Blank"				[$WIN32]
-		Button.ArmedBgColor				"190 115 0 255"		[$X360]
-		Button.DepressedTextColor		"White"
-		Button.DepressedBgColor			"Blank"
-		Button.FocusBorderColor			"Black"
+		Button.TextColor				"0 0 0 0"
+		Button.BgColor					"0 0 0 0"
+		Button.ArmedTextColor			"0 0 0 0"
+		Button.ArmedBgColor				"0 0 0 0"				[$WIN32]
+		Button.ArmedBgColor				"0 0 0 0"		[$X360]
+		Button.DepressedTextColor		"0 0 0 0"
+		Button.DepressedBgColor			"0 0 0 0"
+		Button.FocusBorderColor			"0 0 0 0"
 		
 		CheckButton.TextColor			"OffWhite"
 		CheckButton.SelectedTextColor	"White"
@@ -58,15 +58,15 @@ Scheme
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
-		"Chat.TypingText"		"White"
+		"Chat.TypingText"		"245 245 245 255"
 
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor					"160 160 160 128"	[$WIN32]
-		Frame.BgColor					"80 80 80 192"		[$X360]
-		Frame.OutOfFocusBgColor			"160 160 160 32"	[$WIN32]
-		Frame.OutOfFocusBgColor			"80 80 80 192"		[$X360]
+		Frame.BgColor					"160 160 160 0"	[$WIN32]
+		Frame.BgColor					"80 80 80 0"		[$X360]
+		Frame.OutOfFocusBgColor			"160 160 160 0"	[$WIN32]
+		Frame.OutOfFocusBgColor			"80 80 80 0"		[$X360]
 		Frame.FocusTransitionEffectTime	"0.3"	// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
