@@ -52,9 +52,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
+		"xpos"			"99999"	[$WIN32]
 		"ypos"			"33"	[$WIN32]
 		"ypos_minmode"	"40"	[$WIN32]
 		"ypos"			"43"	[$X360]
@@ -66,15 +64,15 @@
 		"tall_minmode"	"40"	[$WIN32]
 		"tall"			"35"	[$X360]
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
+		"xpos"			"-55"
 		"ypos"			"52"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"200"
@@ -82,15 +80,31 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"right"	
+		"textAlignment"	"east"	
 		"font"			"Black72"
 		"fgcolor"		"245 245 245 255"
+	}
+	"PlayerStatusHealthValueCircle"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueCircle"
+		"xpos"			"-135"
+		"ypos"			"52"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"200"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"o"
+		"textAlignment"	"east"	
+		"font"			"Circle16"
+		"fgcolor"		"245 245 245 0"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"78"
+		"xpos"			"-53"
 		"ypos"			"54"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"200"
@@ -98,7 +112,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"right"	
+		"textAlignment"	"east"	
 		"font"			"Black72"
 		"fgcolor"		"40 40 40 150"
 	}	
