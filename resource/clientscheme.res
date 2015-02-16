@@ -434,8 +434,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BrandonGrotesque-Regular"
-				"tall"		"24"
+				"name"		"AvenirLTStd-Heavy"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
@@ -443,8 +443,8 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"BrandonGrotesque-Regular"
-				"tall"		"24"	[$WIN32]
+				"name"		"AvenirLTStd-Heavy"
+				"tall"		"18"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -453,8 +453,8 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"BrandonGrotesque-Regular"
-				"tall"		"24"
+				"name"		"AvenirLTStd-Heavy"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -462,8 +462,8 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"BrandonGrotesque-Regular"
-				"tall"		"24"
+				"name"		"AvenirLTStd-Heavy"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
@@ -471,8 +471,8 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"BrandonGrotesque-Regular"
-				"tall"		"24"
+				"name"		"AvenirLTStd-Heavy"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -480,16 +480,16 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"BrandonGrotesque-Regular"
-				"tall"		"24"
+				"name"		"AvenirLTStd-Heavy"
+				"tall"		"18"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 				"antialias"	"1"
 			}
 			"7"
 			{
-				"name"		"BrandonGrotesque-Regular"
-				"tall"		"24"
+				"name"		"AvenirLTStd-Heavy"
+				"tall"		"18"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 				"antialias"	"1"
@@ -519,7 +519,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BrandonGrotesque-Regular"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -528,7 +528,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"BrandonGrotesque-Regular"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -537,7 +537,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"BrandonGrotesque-Regular"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -546,7 +546,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"BrandonGrotesque-Regular"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -555,7 +555,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"BrandonGrotesque-Regular"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -564,7 +564,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"BrandonGrotesque-Regular"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -577,7 +577,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BrandonGrotesque-Regular"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -586,7 +586,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"BrandonGrotesque-Regular"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -595,7 +595,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"BrandonGrotesque-Regular"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -604,7 +604,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"BrandonGrotesque-Regular"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -613,7 +613,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"BrandonGrotesque-Regular"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -625,23 +625,25 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
+				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"21"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
+				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -650,7 +652,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"28"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -659,7 +661,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"30"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -668,17 +670,19 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
+				"antialias"	"1"
 			}
 			"7"
 			{
-				"name"		"Arial"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
+				"antialias"	"1"
 			}
 		}
 		CenterPrintText
@@ -749,7 +753,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -759,7 +763,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -769,7 +773,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -778,7 +782,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -787,7 +791,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -799,7 +803,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -812,7 +816,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -825,7 +829,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -837,7 +841,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -848,7 +852,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -859,7 +863,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -871,7 +875,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -882,7 +886,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -893,7 +897,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -904,7 +908,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -5012,6 +5016,11 @@ Scheme
 		{
 			"font" "resource/fonts/Paula.ttf"
 			"name" "Paula"
+		}
+		"13"
+		{
+			"font" "resource/fonts/AvenirLTStd-Heavy.otf"
+			"name" "AvenirLTStd-Heavy"
 		}
 	}
 }

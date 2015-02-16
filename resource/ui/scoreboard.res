@@ -82,17 +82,31 @@
 			"visible"		"0"
 		}
 	}
+	"RealBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RealBG"
+		"xpos"			"95"
+		"ypos"			"120"
+		"zpos"			"2"
+		"wide"			"450"
+		"tall"			"220"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"	
+		"fillcolor"		"50 50 50 150"
+		"PaintBackgroundType"	"0"
+	}
 	"MainBG"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MainBG"
-		"xpos"			"0"
-		"xpos_hidef"	"14"
+		"xpos"			"99999"
 		"ypos"			"60"
 		"zpos"			"-1"
 		"wide"			"640"
-		"wide_lodef"	"570"
-		"wide_hidef"	"590"
 		"tall"			"388"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -359,21 +373,16 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
 		"xpos"			"5"
-		"xpos_lodef"	"10"
-		"xpos_hidef"	"30"
 		"ypos"			"72"
 		"zpos"			"20"
-		"wide"			"310"
-		"wide_lodef"	"267"
-		"wide_hidef"	"277"
+		"wide"			"280"
 		"tall"			"280"	[$WIN32]
-		"tall"			"255"	[$X360]
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"22"
+		"linespacing"	"14"
 		"fgcolor"		"blue"
 		
 		if_mvm
@@ -412,27 +421,18 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
-		"xpos"			"319"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
-		"ypos"			"70"
+		"xpos"			"95"
+		"ypos"			"120"
 		"zpos"			"2"
-		"wide"			"2"
-		"tall"			"292"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
+		"wide"			"450"
+		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 153"
+		"fillcolor"		"120 120 120 255"
 		"PaintBackgroundType"	"0"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}
 	"Spectators"
 	{
