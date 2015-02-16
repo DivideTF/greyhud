@@ -128,7 +128,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"Black72"
-		"fgcolor"		"Black"
+		"fgcolor"		"40 40 40 150"
 		"xpos"			"3"
 		"xpos_hidef"	"2"
 		"xpos_lodef"	"2"
