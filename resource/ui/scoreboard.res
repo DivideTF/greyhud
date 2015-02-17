@@ -29,8 +29,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueScoreBG"
-		"xpos"			"-2"
-		"xpos_hidef"	"18"
+		"xpos"			"99999"
 		"ypos"			"9"
 		"wide"			"324"
 		"wide_lodef"	"284"
@@ -53,9 +52,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"316"
-		"xpos_lodef"	"276"
-		"xpos_hidef"	"306"
+		"xpos"			"99999"
 		"ypos"			"9"
 		"wide"			"324"
 		"wide_lodef"	"284"
@@ -73,6 +70,78 @@
 		{
 			"visible"		"0"
 		}
+	}
+	"BlueTeamCircle"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"BlueTeamCircle"
+		"font"			"Circle48"
+		"labelText"		"o"
+		"textAlignment"		"center"
+		"xpos"			"220" [!$OSX]
+		"ypos"			"0"	[$WIN32]
+		"zpos"			"1"
+		"wide"			"140"
+		"tall"			"60"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_Override"	"50 50 50 255"
+	}
+	"BlueTeam"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"BlueTeam"
+		"font"			"Circle54"
+		"labelText"		"o"
+		"textAlignment"		"center"
+		"xpos"			"220" [!$OSX]
+		"ypos"			"0"	[$WIN32]
+		"zpos"			"-1"
+		"wide"			"140"
+		"tall"			"60"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_Override"	"176 226 232 150"
+	}
+	"RedTeamCircle"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"RedTeamCircle"
+		"font"			"Circle48"
+		"labelText"		"o"
+		"textAlignment"		"center"
+		"xpos"			"280" [!$OSX]
+		"ypos"			"0"	[$WIN32]
+		"zpos"			"1"
+		"wide"			"140"
+		"tall"			"60"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_Override"	"50 50 50 255"
+	}
+	"RedTeam"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"RedTeam"
+		"font"			"Circle54"
+		"labelText"		"o"
+		"textAlignment"		"center"
+		"xpos"			"280" [!$OSX]
+		"ypos"			"0"	[$WIN32]
+		"zpos"			"-1"
+		"wide"			"140"
+		"tall"			"60"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_Override"	"230 101 101 150"
 	}
 	"RealBG"
 	{
@@ -116,20 +185,18 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"ScoreboardTeamNameLarge"
+		"font"			"Black28"
 		"labelText"		"%blueteamname%"
-		"textAlignment"		"west"
-		"xpos"			"10" [!$OSX]
-		"xpos"			"15" [$OSX]
-		"xpos_hidef"		"40"
-		"ypos"			"23"	[$WIN32]
-		"ypos"			"29"	[$X360]
+		"textAlignment"		"east"
+		"xpos"			"110" [!$OSX]
+		"ypos"			"15"	[$WIN32]
 		"wide"			"140"
 		"tall"			"34"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_Override"	"245 245 245 255"
 		
 		if_mvm
 		{
@@ -140,13 +207,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"ScoreboardTeamScore"
+		"font"			"Black28"
 		"labelText"		"%blueteamscore%"
-		"textAlignment"		"east"
-		"xpos"			"190"
-		"xpos_lodef"		"170"
-		"xpos_hidef"		"190"
-		"ypos"			"12" 
+		"textAlignment"		"center"
+		"xpos"			"230"
+		"ypos"			"4" 
 		"zpos"			"4"
 		"wide"			"120"
 		"tall"			"55"
@@ -156,6 +221,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_Override"	"220 220 220 255"
 		
 		if_mvm
 		{
@@ -170,9 +236,7 @@
 		"fgcolor"		"Black"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
-		"xpos"			"191"
-		"xpos_lodef"	"171"
-		"xpos_hidef"	"191"
+		"xpos"			"99999"
 		"ypos"			"13" 
 		"zpos"			"4"
 		"wide"			"120"
@@ -196,8 +260,7 @@
 		"font"			"ScoreboardMedium"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
-		"xpos"			"135"
-		"xpos_hidef"		"100"
+		"xpos"			"99999"
 		"ypos"			"33"
 		"wide"			"130"
 		"tall"			"29"
@@ -215,21 +278,18 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"ScoreboardTeamNameLarge"
+		"font"			"Black28"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
-		"xpos"			"490" [!$OSX]
-		"xpos"			"485" [$OSX]
-		"xpos_lodef"	"466"
-		"xpos_hidef"	"508"
-		"ypos"			"23"	[$WIN32]
-		"ypos"			"29"	[$X360]
+		"xpos"			"290" [!$OSX]
+		"ypos"			"15"	[$WIN32]
 		"wide"			"140"
 		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_Override"	"245 245 245 255"
 		
 		if_mvm
 		{
@@ -240,13 +300,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"ScoreboardTeamScore"
+		"font"			"Black28"
 		"labelText"		"%redteamscore%"
-		"textAlignment"		"west"
-		"xpos"			"330"
-		"xpos_lodef"	"310"
-		"xpos_hidef"	"350"
-		"ypos"			"12" 
+		"textAlignment"		"center"
+		"xpos"			"290"
+		"ypos"			"4" 
 		"zpos"			"4"
 		"wide"			"120"
 		"tall"			"55"
@@ -256,6 +314,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_Override"	"220 220 220 255"
 		
 		if_mvm
 		{
@@ -270,9 +329,7 @@
 		"fgcolor"		"Black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
-		"xpos"			"331"
-		"xpos_lodef"	"311"
-		"xpos_hidef"	"351"
+		"xpos"			"99999"
 		"ypos"			"13"
 		"zpos"			"4"
 		"wide"			"120"
@@ -296,9 +353,7 @@
 		"font"			"ScoreboardMedium"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
-		"xpos"			"375"
-		"xpos_lodef"	"396"
-		"xpos_hidef"	"438"
+		"xpos"			"9999"
 		"ypos"			"33"
 		"wide"			"130"
 		"tall"			"29"
@@ -418,7 +473,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"80 80 80 0"
+		"fillcolor"		"40 40 40 255"
 		"PaintBackgroundType"	"0"
 	}
 	"Spectators"

@@ -436,7 +436,7 @@ Scheme
 			{
 				"name"		"AvenirLTStd-Heavy"
 				"tall"		"18"
-				"weight"	"900"
+				"weight"	"200"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 				"antialias"	"1"
@@ -446,7 +446,7 @@ Scheme
 				"name"		"AvenirLTStd-Heavy"
 				"tall"		"18"	[$WIN32]
 				"tall"		"20"	[$X360]
-				"weight"	"900"
+				"weight"	"200"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 				"antialias"	"1"
@@ -455,7 +455,7 @@ Scheme
 			{
 				"name"		"AvenirLTStd-Heavy"
 				"tall"		"18"
-				"weight"	"900"
+				"weight"	"200"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
 				"antialias"	"1"
@@ -464,7 +464,7 @@ Scheme
 			{
 				"name"		"AvenirLTStd-Heavy"
 				"tall"		"18"
-				"weight"	"900"
+				"weight"	"200"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
@@ -473,7 +473,7 @@ Scheme
 			{
 				"name"		"AvenirLTStd-Heavy"
 				"tall"		"18"
-				"weight"	"900"
+				"weight"	"200"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
 				"antialias"	"1"
@@ -483,7 +483,7 @@ Scheme
 				"name"		"AvenirLTStd-Heavy"
 				"tall"		"18"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
+				"weight"		"200"
 				"antialias"	"1"
 			}
 			"7"
@@ -491,7 +491,7 @@ Scheme
 				"name"		"AvenirLTStd-Heavy"
 				"tall"		"18"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+				"weight"		"200"
 				"antialias"	"1"
 			}
 
@@ -627,7 +627,7 @@ Scheme
 			{
 				"name"		"AvenirLTStd-Heavy"
 				"tall"		"18"
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
 				"antialias"	"1"
@@ -636,7 +636,7 @@ Scheme
 			{
 				"name"		"AvenirLTStd-Heavy"
 				"tall"		"21"
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
 				"antialias"	"1"
@@ -645,7 +645,7 @@ Scheme
 			{
 				"name"		"AvenirLTStd-Heavy"
 				"tall"		"22"
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
 				"antialias"	"1"
@@ -654,7 +654,7 @@ Scheme
 			{
 				"name"		"AvenirLTStd-Heavy"
 				"tall"		"28"
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
 				"antialias"	"1"
@@ -663,7 +663,7 @@ Scheme
 			{
 				"name"		"AvenirLTStd-Heavy"
 				"tall"		"30"
-				"weight"	"900"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
 				"antialias"	"1"
@@ -673,7 +673,7 @@ Scheme
 				"name"		"AvenirLTStd-Heavy"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
+				"weight"		"500"
 				"antialias"	"1"
 			}
 			"7"
@@ -681,7 +681,7 @@ Scheme
 				"name"		"AvenirLTStd-Heavy"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+				"weight"		"200"
 				"antialias"	"1"
 			}
 		}
