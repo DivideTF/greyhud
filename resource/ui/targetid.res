@@ -41,7 +41,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"50 50 50 255"
+		"fillcolor"		"50 50 50 0"
 		"PaintBackgroundType"	"0"
 	}
 	"TargetIDBG_Spec_Blue"
@@ -49,10 +49,10 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"32"
 		"zpos"			"-1"
 		"wide"			"252"
-		"tall"	 		"10"
+		"tall"	 		"8"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -71,10 +71,10 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"32"
 		"zpos"			"-1"
 		"wide"			"252"
-		"tall"	 		"10"
+		"tall"	 		"8"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -150,8 +150,7 @@
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
-	}	
-	
+	}
 	"AmmoIcon"
 	{
 		"ControlName"	"ImagePanel"

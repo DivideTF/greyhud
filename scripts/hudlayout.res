@@ -80,8 +80,7 @@
 		"ypos"			"r90"	[$X360]
 		"wide"			"300"
 		"tall"			"100"
-		"fgcolor_Override" "245 245 245 255"
-		
+		"fgcolor_Override" "245 245 245 255"	
 	}
 	
 	HudDemomanCharge

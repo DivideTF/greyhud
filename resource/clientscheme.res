@@ -2408,6 +2408,28 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		"Circle8"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"8"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Circle10"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"Circle16"
 		{
 			"1"
@@ -2535,6 +2557,28 @@ Scheme
 			{
 				"name"		"Paula"
 				"tall"		"60"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Black8"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Black"
+				"tall"		"8"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Black12"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Black"
+				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2678,6 +2722,28 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-Black"
 				"tall"		"72"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Reg6"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Regular"
+				"tall"		"6"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Reg8"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Regular"
+				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2881,13 +2947,35 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"Light6"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Light"
+				"tall"		"6"
+				"weight"	"200"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Light8"
+		{
+			"1"
+			{
+				"name"		"BrandonGrotesque-Light"
+				"tall"		"8"
+				"weight"	"200"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"Light10"
 		{
 			"1"
 			{
 				"name"		"BrandonGrotesque-Light"
 				"tall"		"10"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2898,7 +2986,7 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-Light"
 				"tall"		"14"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2909,7 +2997,7 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-Light"
 				"tall"		"18"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2920,7 +3008,7 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-Light"
 				"tall"		"22"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2931,7 +3019,7 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-Light"
 				"tall"		"26"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2942,7 +3030,7 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-Light"
 				"tall"		"30"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2953,7 +3041,7 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-Light"
 				"tall"		"34"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2964,7 +3052,7 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-Light"
 				"tall"		"38"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2975,7 +3063,7 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-Light"
 				"tall"		"42"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2986,7 +3074,7 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-LightItalic"
 				"tall"		"10"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2997,7 +3085,7 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-LightItalic"
 				"tall"		"14"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3008,7 +3096,7 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-LightItalic"
 				"tall"		"18"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3019,7 +3107,7 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-LightItalic"
 				"tall"		"22"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3030,7 +3118,7 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-LightItalic"
 				"tall"		"26"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3041,7 +3129,7 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-LightItalic"
 				"tall"		"30"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3052,7 +3140,7 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-LightItalic"
 				"tall"		"34"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3063,7 +3151,7 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-LightItalic"
 				"tall"		"38"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3074,7 +3162,7 @@ Scheme
 			{
 				"name"		"BrandonGrotesque-LightItalic"
 				"tall"		"42"
-				"weight"	"500"
+				"weight"	"200"
 				"additive"	"0"
 				"antialias" "1"
 			}
