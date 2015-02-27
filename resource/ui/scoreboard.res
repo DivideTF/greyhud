@@ -507,7 +507,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"40 40 40 255"
+		"fillcolor"		"40 40 40 0"
 		"PaintBackgroundType"	"0"
 	}
 	"Spectators"
@@ -517,7 +517,7 @@
 		"font"			"Black10"
 		"labelText"		"%spectators%"
 		"textAlignment"		"center"
-		"xpos"			"107"
+		"xpos"			"108"
 		"ypos"			"360"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"424"
@@ -527,6 +527,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"245 245 245 255"
+		
 		if_mvm
 		{
 			"ypos"		"428"
@@ -627,11 +628,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"ScoreboardMedium"
+		"font"			"Black10"
 		"labelText"		"%mapname%"
-		"textAlignment"	"east"
-		"xpos"			"9999"
-		"ypos"			"375"
+		"textAlignment"	"center"
+		"xpos"			"237"
+		"ypos"			"375"	[$WIN32]
 		"zpos"			"3"
 		"wide"			"165"
 		"tall"			"20"
@@ -639,7 +640,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"236 227 203 255"
+		"fgcolor"		"245 245 245 255"
 
 		if_mvm
 		{
@@ -774,7 +775,7 @@
 				"tall"			"36"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"bgcolor_override"	"117 107 94 255"
+				"bgcolor_override"	"50 50 50 255"
 			}
 			"AvatarImage"
 			{
@@ -796,7 +797,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
 				"fgcolor"		"TanLight"
-				"xpos"			"50"
+				"xpos"			"99999"
 				"ypos"			"7"
 				"zpos"			"2"
 				"wide"			"100"

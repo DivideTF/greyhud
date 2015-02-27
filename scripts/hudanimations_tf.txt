@@ -206,7 +206,8 @@ event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
-	Animate PlayerStatusHealthValue			FgColor		"176 226 232 255"		Linear 0.0 0.2
+	Animate PlayerStatusHealthValue			FgColor		"176 226 232 255"		Linear 0.0 0.0
+	Animate PlayerStatusHealthValue2			FgColor		"176 226 232 255"		Linear 0.0 0.0
 	Animate PlayerStatusHealthValueCircle		FgColor		"176 226 232 255"	Linear 0.0 0.2
 	Animate PlayerStatusHealthValueCircle		FgColor		"176 226 232 0"		Linear 0.2 0.4
 
@@ -224,6 +225,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 	Animate PlayerStatusHealthValue			FgColor		"245 245 245 255"		Linear 0.2 0.4
+	Animate PlayerStatusHealthValue2		FgColor		"245 245 245 255"		Linear 0.2 0.4
 	Animate PlayerStatusHealthValueCircle		FgColor		"176 226 232 0"		Linear 0.2 0.4
 }
 
@@ -234,10 +236,11 @@ event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
-	Animate PlayerStatusHealthValue			FgColor		"230 101 101 255"		Linear 0.0 0.2
+	Animate PlayerStatusHealthValue			FgColor		"230 101 101 255"		Linear 0.0 0.0
+	Animate PlayerStatusHealthValue2			FgColor		"230 101 101 255"		Linear 0.0 0.0
 	Animate PlayerStatusHealthValueCircle		FgColor		"230 101 101 255"	Linear 0.0 0.2
 	Animate PlayerStatusHealthValueCircle		FgColor		"230 101 101 0"		Linear 0.2 0.4
-
+	
 	RunEvent HudHealthDyingPulseLoop	0.4
 }
 
@@ -251,8 +254,9 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
-	Animate   PlayerStatusHealthValue		FgColor		"245 245 245 255"	Linear 0.0 0.2
-	Animate 	PlayerStatusHealthValueCircle		FgColor		"230 101 101 0"		Linear 0.0 0.2
+	Animate PlayerStatusHealthValue			FgColor		"245 245 245 255"		Linear 0.2 0.4
+	Animate PlayerStatusHealthValue2		FgColor		"245 245 245 255"		Linear 0.2 0.4
+	Animate PlayerStatusHealthValueCircle		FgColor		"230 101 101 0"		Linear 0.2 0.4
 }
 
 //===========================================
@@ -261,7 +265,7 @@ event HudLowAmmoPulse
 {
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
-	Animate AmmoInClip					FgColor     "230 101 101 255" Linear 0.0 0.2
+	Animate AmmoInClip					FgColor     "230 101 101 255" Linear 0.0 0.0
 }
 
 // call to loop HudLowAmmoPulse
