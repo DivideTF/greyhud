@@ -141,7 +141,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_Override"	"176 226 232 150"
+		"fgcolor_Override"	"ReyBlueFade"
 	}
 	"RedTeamCircle"
 	{
@@ -177,7 +177,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_Override"	"230 101 101 150"
+		"fgcolor_Override"	"ReyRedFade"
 	}
 	"RealBG"
 	{
@@ -1013,7 +1013,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"	"176 226 232 255"
+			"fgcolor"	"ReyBlue"
 		}						
 		"Deaths"
 		{
@@ -1031,7 +1031,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"	"230 101 101 255"
+			"fgcolor"	"ReyRed"
 		}	
 		"GameType"
 		{

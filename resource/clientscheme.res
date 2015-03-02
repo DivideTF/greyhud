@@ -24,6 +24,10 @@ Scheme
 		"LightOrange"		"245 245 245 255"
 		"GoalOrange"		"245 245 245 255"
 		"TFOrange"			"245 245 245 255"
+		"ReyBlue"			"93 149 181 255"
+		"ReyRed"			"202 106 106 255"
+		"ReyBlueFade"		"93 149 181 150"
+		"ReyRedFade"		"202 106 106 150"
 		
 		"White"				"235 235 235 0"
 		"Red"				"192 28 0 140"

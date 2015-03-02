@@ -114,7 +114,6 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"FontStoreOriginalPrice"
-		"font_minmode"	"DefaultVerySmall"
 		"xpos"			"8"
 		"xpos_minmode"	"30"
 		"ypos"			"17"	[$WIN32]

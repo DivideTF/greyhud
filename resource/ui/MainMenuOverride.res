@@ -162,7 +162,7 @@
 		"zpos"			"0"
 		"wide"			"1000"
 		"tall"			"1000"
-		"fillcolor"		"233 233 233 255"
+		"fillcolor"		"233 233 233 0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
