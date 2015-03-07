@@ -258,20 +258,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
-		"ypos"			"33"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
+		"xpos"			"7"
+		"ypos"			"47"
 		"zpos"			"5"
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
@@ -279,17 +270,14 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
-		"font_minmode"	"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
+		"font"			"Reg14"
+		"fgcolor"		"245 245 245 255"
 	}	
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
+		"xpos"			"99999"	[$WIN32]
 		"ypos"			"31"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen

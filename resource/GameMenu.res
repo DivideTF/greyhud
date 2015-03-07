@@ -1,101 +1,72 @@
 "GameMenu" [$WIN32]
 {
-	"BWHUD"
+	"ResumeGameButton"
 	{
-		"label" "bwHUD"
-		"command" "engine con_enable 1; engine showconsole; clear; echo bwHUD. Thanks to whayay, omp, Fog, rays and doodle for his guide. Please direct any comments and/or concerns to teamfortress.tv/thread/16659/bwhud/ or steamcommunity.com/id/thecalvinandhobbes"
-		"OnlyAtMenu" "1"
+		"label"			"#MMenu_ResumeGame"
+		"command"		"ResumeGame"
+		"OnlyInGame"	"1"
+		"subimage" "icon_resume"
 	}
-	"Version"
-	{
-		"label" "Release Version 2.1.7"
-		"command" "engine con_enable 1; engine showconsole; clear; echo Thanks for using my HUD!"
-		"OnlyAtMenu" "1"
-	}
-
 	"QuickplayButton"
 	{
-		"label" "#MMenu_StartPlaying" 
+		"label" "#MMenu_PlayMultiplayer" 
 		"command" "quickplay"
+		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
-		"tooltip" "Quick Play"
 	}
 	"QuickplayChangeButton"
 	{
 		"label" "#MMenu_NewGame" 
 		"command" "quickplay"
+		"subimage" "glyph_server"
 		"OnlyInGame" "1"
-		"tooltip" "Quick Play"
 	}
 	"PlayPVEButton"
 	{
 		"label" "#MMenu_PlayCoop" 
 		"command" "playpve"
+		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
-		"tooltip" "Mann Up"
 	}
 	"ServerBrowserButton"
 	{
-		"label" "#MMenu_BrowseServers" 
+		"label" "browse servers" 
 		"command" "OpenServerBrowser"
+		"subimage" "glyph_server_browser"
 		"OnlyAtMenu" "1"
-		"tooltip" "Browse Servers"
 	} 
 	"ChangeServerButton"
 	{
 		"label" "#MMenu_ChangeServer" 
 		"command" "OpenServerBrowser"
+		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"
-		"tooltip" "Browse Servers"
 	}
 	"ReplayBrowserButton"
 	{
-		"label" "Replays"
+		"label" "#GameUI_GameMenu_ReplayDemos"
 		"command" "engine replay_reloadbrowser"
-		"tooltip" "Watch Replays"
+		"subimage" "glyph_tv"
 	}
 	"SteamWorkshopButton"
 	{
 		"label" "#MMenu_SteamWorkshop"
 		"command" "engine OpenSteamWorkshopDialog"
-		"tooltip" "Steam Workshop"
+		"subimage" "glyph_steamworkshop"
 	}
-	"ConsoleButton"
+	"VRModeButton"
 	{
-		"label" "Console"
-		"command" "engine con_enable 1;toggleconsole"
-		"tooltip" "Open/Close Console"
-	} 
-	"DEMOUI"
-	{
-		"label" "DemoUI"
-		"command" "engine demoui"
-		"tooltip" "DemoUI"
+		"label" "#MMenu_VRMode_Activate"
+		"command" "engine vr_toggle"
+		"subimage" "glyph_vr"
+		"OnlyWhenVREnabled" "1"
 	}
-	"HomeServer"
+	"TrainingButton"
 	{
-		"label" "7"
-		"command" "engine connect ;password "
-        "tooltip" "Match Server"
-	}
-	"FaveServer"
-	{
-		"label" "6"
-		"command" "engine connect "
-        "tooltip" "Favourite Server"
-	}
-	"ToggleScoreboard"
-	{
-		"label" "Scoreboard"
-		"command" "engine toggle cl_hud_minmode"
-		"tooltip" "Switch Scoreboards"
-	}
-	"QuitButton"
-	{
-		"label" "#TF_Quit_Title"
-		"command" "engine replay_confirmquit"
+		"label" "#TF_Training"
+		"command" "offlinepractice"
+		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
-		"tooltip" "Done for now?"
 	}
 	
 	// These buttons get positioned by the MainMenuOverride.res	
@@ -104,42 +75,28 @@
 		"label" "#GameUI_GameMenu_CreateServer"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" "1"
-		"tooltip" "Create Server"
+		"tooltip" "#GameUI_GameMenu_CreateServer"
 	}
 	"GeneralStoreButton"
 	{
-		"label" "Store"
+		"label" "#MMenu_Shop"
 		"command" "engine open_store"
-		"tooltip" "Mann Co. Store"
-	}
+		"subimage" "glyph_store"
+	}	
 	"CharacterSetupButton"
 	{
-		"label" "Items"
+		"label" "#MMenu_CharacterSetup"
 		"command" "engine open_charinfo"
-		"tooltip" "Items"
+		"subimage" "glyph_items"
 	}
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
-	"ResumeGameButton"
-	{
-		"label"			"#MMenu_ResumeGame"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"tooltip" "Resume"
-	}
-	"DisconnectButton"
-	{
-		"label" "Disconnect"
-		"command" "engine disconnect"
-		"OnlyInGame"	"1"
-		"tooltip" "Leave Server?"
-	}
 	"CallVoteButton"
 	{
 		"label"			""
 		"command"		"callvote"
-		"OnlyAtMenu" "0"
+		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
 		"tooltip" "#MMenu_CallVote"
 	}
@@ -155,7 +112,7 @@
 	{
 		"label"			""
 		"command"		"engine cl_coach_find_coach"
-		"OnlyAtMenu" "0"
+		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
 		"tooltip" "#MMenu_RequestCoach"
 	}

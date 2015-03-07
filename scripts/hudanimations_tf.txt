@@ -206,6 +206,7 @@ event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	Animate	PlayerStatusHealthValue 		Fgcolor		"184 227 190 255"		Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -220,6 +221,7 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
+	Animate	PlayerStatusHealthValue 		Fgcolor		"245 245 245 255"		Linear 0.0 0.0
 }
 
 //===========================================
@@ -229,6 +231,7 @@ event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	Animate	PlayerStatusHealthValue 		Fgcolor		"232 116 116 255"		Linear 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -243,6 +246,7 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
+	Animate	PlayerStatusHealthValue 		Fgcolor		"245 245 245 255"		Linear 0.0 0.0
 }
 
 //===========================================
@@ -422,11 +426,9 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"184 227 190 255"		Linear 0.0 0.0
 	
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"184 227 190 255"		Linear 0.0 0.0
 
 	RunEvent HudMedicChargedLoop	0.6
 }
